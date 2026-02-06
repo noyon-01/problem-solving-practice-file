@@ -1,11 +1,9 @@
-
 /**
- * Convert a String to a Number!
- * 
+ * Convert a String to a Number! 
  * Description
-We need a function that can transform a string into a number. What ways of achieving this do you know?
+ * We need a function that can transform a string into a number. What ways of achieving this do you know?
 
-Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
+ * Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.
 
 Examples
 "1234" --> 1234
@@ -14,12 +12,10 @@ Examples
 "-7" --> -7
  */
 
-const stringToNumber = function(str){
-  let number = +str;
-  return number;
-}
-
-
+// const stringToNumber = function(str){
+//   let number = +str;
+//   return number;
+// }
 
 /**
  * Remove String Spaces
@@ -32,13 +28,10 @@ Examples (Input -> Output):
 "8aaaaa dddd r     " -> "8aaaaaddddr"
  */
 
-function noSpace(x){
+function noSpace(x) {
   let noSpace = x.split(" ").join("");
   return noSpace;
 }
-
-
-
 
 /**
  * Remove First and Last Character
@@ -69,13 +62,10 @@ Strings containing numbers and special characters
 Random test cases of varying lengths
  */
 
-
-function removeChar(str){
- //You got this!
-  return str.slice(1, -1)
-};
-
-
+function removeChar(str) {
+  //You got this!
+  return str.slice(1, -1);
+}
 
 /**
  * Reversed Strings
@@ -86,12 +76,9 @@ function removeChar(str){
 'word'   =>  'drow'
  */
 
-function solution(str){  
+function solution(str) {
   return str.split("").reverse().join("");
 }
-
-
-
 
 /**
  * Convert a Number to a String!
@@ -111,20 +98,16 @@ function numberToString(num) {
   return num.toString();
 }
 
-
-
-
 /**
  * Multiply
  * This code does not execute properly. Try to figure out why.
  */
 
-function multiply(a, b){
-  return a * b
+function multiply(a, b) {
+  return a * b;
 }
 
-multiply(5, 6)
-
+multiply(5, 6);
 
 /**
  * Return Negative
@@ -143,5 +126,5 @@ Zero (0) is not checked for any specific sign. Negative zeros make no mathematic
  */
 
 function makeNegative(num) {
-  return num > 0 ? num * (-1) : num
+  return num > 0 ? num * -1 : num;
 }
