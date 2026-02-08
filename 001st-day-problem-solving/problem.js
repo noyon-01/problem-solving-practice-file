@@ -9,14 +9,27 @@
  * 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8);
  */
 
-// function summation(nums) {
-//     let sum = 0;
-//     for (let i = 0; i <= nums; i++) {
-//         sum = sum + i;
-//     }
-//     return sum;
+// function summation(num) {
+//   let sum = 0;
+//   for (let i = 1; i <= num; i++) {
+//     console.log(i);
+//     sum = sum + i;
+//   }
+//   return sum;
 // }
-// summation(2);
+// const result = summation(8);
+// console.log(result);
+
+// function summation(nums) {
+//   let sum = 0;
+//   for (let i = 0; i <= nums; i++) {
+//     console.log(i);
+//     sum = sum + i;
+//   }
+//   return sum;
+// }
+// const result = summation(2);
+// console.log(result);
 
 // !JavaScript Problem Solving - 02! //
 /**
@@ -36,9 +49,17 @@
  */
 
 // function century(year) {
-//     return Math.ceil(year / 100);
+//   const century = Math.ceil(year / 100);
+//   return century;
 // }
-// century(2020);
+// const result = century(1705);
+// console.log(result);
+
+// function century(year) {
+//   return Math.ceil(year / 100);
+// }
+// const result = century(2020);
+// console.log(result);
 
 // !JavaScript Problem Solving - 03! //
 /**
@@ -54,11 +75,19 @@
     time = 11.8--> litres = 5
  */
 
-// function litres(time) {
-//     const hours = time * 0.5;
-//     return Math.floor(hours);
+// function drinkWater(hours) {
+//   const nathanDrinkWater = Math.floor(hours * 0.5);
+//   return nathanDrinkWater;
 // }
-// litres(3);
+// const result = drinkWater(6.7);
+// console.log(result);
+
+// function litres(time) {
+//   const hours = time * 0.5;
+//   return Math.floor(hours);
+// }
+// const result = litres(3);
+// console.log(result);
 
 // !JavaScript Problem Solving - 04! //
 /**
@@ -69,21 +98,34 @@
    35231 => [1,3,2,5,3]
  */
 
-// function digitize(n) {
-//     return String(n).split("").reverse().map(Number);
+// function reverseNumber(numbers) {
+//   const array = [];
+//   const num = String(numbers).split("").reverse();
+
+//   for(const rev_num of num){
+//     array.push(parseInt(rev_num));
+//   }
+//   return array;
 // }
-// digitize(5, 4, 3, 2, 1);
+// const result = reverseNumber(54321);
+// console.log(result);
 
 // !JavaScript Problem Solving - 05! //
 /**
  * Opposites Attract
- * function lovefunc(flower1, flower2) {
-    return flower1 % 2 !== flower2 % 2;
-   }
-   lovefunc(1, 4);
+ * Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+
+ * Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
  */
 
-// function lovefunc(flower1, flower2) {
-//     return flower1 % 2 !== flower2 % 2;
+// function loveFun(flower1, flower2) {
+//   return flower1 % 2 !== flower2 % 2;
 // }
-// lovefunc(1, 4);
+// const result = loveFun(2, 4);
+// console.log(result);
+
+// function lovefunc(flower1, flower2) {
+//   return flower1 % 2 !== flower2 % 2;
+// }
+// const result = lovefunc(3, 4);
+// console.log(result);
