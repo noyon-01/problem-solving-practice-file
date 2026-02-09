@@ -29,3 +29,23 @@
 // function makeNegative(num) {
 //   return num > 0 ? num * -1 : num;
 // }
+
+// !JavaScript Problem Solving - 03! //
+/**
+ *  Make a simple function called greet that returns the most-famous "hello world!".
+ */
+
+// function greet() {
+//   return "hello world!";
+// }
+// console.log(greet());
+
+// !JavaScript Problem Solving - 04! //
+/**
+ * Create a function that accepts a parameter representing a name and returns the message: "Hello, <name> how are you doing today?".
+ */
+
+// function greet(name) {
+//   return `Hello, ${name} how are you doing today?`;
+// }
+// console.log(greet("Hablu"));
