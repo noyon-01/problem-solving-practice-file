@@ -1,4 +1,4 @@
-// !JavaScript Problem Solving - 01! //
+// !JavaScript Problem Solving - 16! //
 /**
  * Convert a String to a Number! 
  * Description
@@ -18,7 +18,7 @@
 //   return number;
 // };
 
-// !JavaScript Problem Solving - 02! //
+// !JavaScript Problem Solving - 17! //
 /**
  * Remove String Spaces
  * Write a function that removes the spaces from the string, then return the resultant string.
@@ -34,7 +34,7 @@
 //   return noSpace;
 // }
 
-// !JavaScript Problem Solving - 03! //
+// !JavaScript Problem Solving - 18! //
 /** 
  * Remove First and Last Character
  * Task
@@ -68,7 +68,7 @@
 //   return str.slice(1, -1);
 // }
 
-// !JavaScript Problem Solving - 04! //
+// !JavaScript Problem Solving - 19! //
 /**
  * Reversed Strings
  * Complete the solution so that it reverses the string passed into it.
@@ -80,7 +80,7 @@
 //   return str.split("").reverse().join("");
 // }
 
-// !JavaScript Problem Solving - 05! //
+// !JavaScript Problem Solving - 20! //
 /**
  * Convert a Number to a String!
  * We need a function that can transform a number (integer) into a string.

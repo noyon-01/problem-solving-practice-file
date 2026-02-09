@@ -1,4 +1,4 @@
-// !JavaScript Problem Solving - 01! //
+// !JavaScript Problem Solving - 21! //
 /**
  * Multiply
  * This code does not execute properly. Try to figure out why.
@@ -9,7 +9,7 @@
 // }
 // multiply(5, 6);
 
-// !JavaScript Problem Solving - 02! //
+// !JavaScript Problem Solving - 22! //
 /**
  * Return Negative
  * In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
@@ -30,7 +30,7 @@
 //   return num > 0 ? num * -1 : num;
 // }
 
-// !JavaScript Problem Solving - 03! //
+// !JavaScript Problem Solving - 23! //
 /**
  *  Make a simple function called greet that returns the most-famous "hello world!".
  */
@@ -40,7 +40,7 @@
 // }
 // console.log(greet());
 
-// !JavaScript Problem Solving - 04! //
+// !JavaScript Problem Solving - 24! //
 /**
  * Create a function that accepts a parameter representing a name and returns the message: "Hello, <name> how are you doing today?".
  */
@@ -49,3 +49,5 @@
 //   return `Hello, ${name} how are you doing today?`;
 // }
 // console.log(greet("Hablu"));
+
+// !JavaScript Problem Solving - 25! //

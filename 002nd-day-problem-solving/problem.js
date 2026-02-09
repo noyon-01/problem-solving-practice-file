@@ -1,4 +1,4 @@
-// !JavaScript Problem Solving - 01! //
+// !JavaScript Problem Solving - 06! //
 /**
  * Abbreviate a Two Word Name
  * Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
@@ -19,7 +19,7 @@
 // abbrevName("Sam Harris");
 // abbrevName("patrick feeney");
 
-// !JavaScript Problem Solving - 02! //
+// !JavaScript Problem Solving - 07! //
 /**
  * Opposite number
  * Very simple, given a number, find its opposite (additive inverse).
@@ -35,7 +35,7 @@
 // }
 // opposite(1, 14, -34);
 
-// !JavaScript Problem Solving - 03! //
+// !JavaScript Problem Solving - 08! //
 /**
  * Basic Mathematical Operations
  * Your task is to create a function that does four basic mathematical operations.
@@ -63,7 +63,7 @@
 // }
 // basicOp("/", 4, 7);
 
-// !JavaScript Problem Solving - 04! //
+// !JavaScript Problem Solving - 09! //
 /**
  * Counting sheep...
  * Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
@@ -117,7 +117,7 @@
 // ];
 // countSheeps(sheep);
 
-// !JavaScript Problem Solving - 05! //
+// !JavaScript Problem Solving - 10! //
 /**
  * String repeat
  * Write a function that accepts a non-negative integer n and a string s as parameters, and returns a string of s repeated exactly n times.

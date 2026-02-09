@@ -1,4 +1,4 @@
-// !JavaScript Problem Solving - 01! //
+// !JavaScript Problem Solving - 11! //
 /**
  * Square(n) Sum
  * Complete the square sum function so that it squares each number passed into it and then sums the results together.
@@ -18,7 +18,7 @@
 // }
 // squareSum([1, 2, 2]);
 
-// !JavaScript Problem Solving - 02! //
+// !JavaScript Problem Solving - 12! //
 /**
  * Sum of positive
  * Task
@@ -42,7 +42,7 @@
 // }
 // positiveSum([1, -4, 7, 12]);
 
-// !JavaScript Problem Solving - 03! //
+// !JavaScript Problem Solving - 13! //
 /**
  * Convert boolean values to strings 'Yes' or 'No'.
  * Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
@@ -57,7 +57,7 @@
 // }
 // boolToWord(true);
 
-// !JavaScript Problem Solving - 04! //
+// !JavaScript Problem Solving - 14! //
 /**
  * Even or Odd
  * Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
@@ -72,7 +72,7 @@
 // }
 // evenOrOdd(5);
 
-// !JavaScript Problem Solving - 05! //
+// !JavaScript Problem Solving - 15! //
 /**
  * Find the smallest integer in the array
  * Given an array of integers your solution should find the smallest integer.
