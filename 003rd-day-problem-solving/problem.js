@@ -16,7 +16,7 @@
 //   }
 //   return sum;
 // }
-// squareSum([1, 2, 2]);
+// console.log(squareSum([1, 2, 2]));
 
 // !JavaScript Problem Solving - 12! //
 /**
@@ -31,16 +31,16 @@
    If there is nothing to sum, the sum is default to 0.
  */
 
-// function positiveSum(numbers) {
+// function sumOfPositive(numbers) {
 //   let sum = 0;
-//   for (let number of numbers) {
+//   for (const number of numbers) {
 //     if (number > 0) {
-//       sum += number;
+//       sum = sum + number;
 //     }
 //   }
 //   return sum;
 // }
-// positiveSum([1, -4, 7, 12]);
+// console.log(sumOfPositive([1, -4, 7, 12]));
 
 // !JavaScript Problem Solving - 13! //
 /**
@@ -55,7 +55,7 @@
 //     return "No";
 //   }
 // }
-// boolToWord(true);
+// console.log(boolToWord(true));
 
 // !JavaScript Problem Solving - 14! //
 /**
@@ -70,7 +70,7 @@
 //     return "Odd";
 //   }
 // }
-// evenOrOdd(5);
+// console.log(evenOrOdd(5));
 
 // !JavaScript Problem Solving - 15! //
 /**
@@ -83,6 +83,14 @@
  * You can assume, for the purpose of this kata, that the supplied array will not be empty.
  */
 
-// function findSmallestInt(arr) {
-//   return Math.min(...arr);
+// function smallestNumber(numbers) {
+//   let smallestNumber = numbers[0];
+//   for (const number of numbers) {
+//     if (number < smallestNumber) {
+//       smallestNumber = number;
+//     }
+//   }
+//   return smallestNumber;
 // }
+// console.log(smallestNumber([34, 15, 88, 2]));
+// console.log(smallestNumber([34, -345, -1, 100]));
