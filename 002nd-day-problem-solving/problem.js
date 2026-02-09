@@ -10,6 +10,16 @@
  */
 
 // function abbrevName(name) {
+//   const word = name.split(" ");
+//   const firstLetter = word[0][0].toUpperCase();
+//   const lastLetter = word[1][0].toUpperCase();
+//   const abbrevName = firstLetter + "." + lastLetter;
+//   return abbrevName;
+// }
+// console.log(abbrevName("Sam Harris"));
+// console.log(abbrevName("patrick feeney"));
+
+// function abbrevName(name) {
 //   let word = name.split(" ");
 //   let firstWord = word[0][0].toUpperCase();
 //   let lastWord = word[1][0].toUpperCase();
@@ -33,7 +43,9 @@
 // function opposite(number) {
 //   return number * -1;
 // }
-// opposite(1, 14, -34);
+// console.log(opposite(1));
+// console.log(opposite(14));
+// console.log(opposite(-34));
 
 // !JavaScript Problem Solving - 08! //
 /**
@@ -61,7 +73,10 @@
 //     return value1 / value2;
 //   }
 // }
-// basicOp("/", 4, 7);
+// console.log(basicOp("+", 8, 4));
+// console.log(basicOp("-", 8, 4));
+// console.log(basicOp("*", 8, 4));
+// console.log(basicOp("/", 8, 4));
 
 // !JavaScript Problem Solving - 09! //
 /**
@@ -69,16 +84,28 @@
  * Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
 
  * For example,
-  [true,  true,  true,  false,
-  true,  true,  true,  true ,
-  true,  false, true,  false,
-  true,  false, false, true ,
-  true,  true,  true,  true ,
-  false, false, true,  true]
+   [true, true, true, false, true, false, true, true,
+    true, true, true, false, true, false, true, true,
+    true, true, true, false, true, false, true, true];
  
- * The correct answer would be 17.
+ * The correct answer would be 18.
  * Hint: Don't forget to check for bad values like null/undefined
  */
+
+// const sheeps = [true, true, true, false, true, false, true, true,
+//                true, true, true, false, true, false, true, true,
+//                true, true, true, false, true, false, true, true];
+
+// function numberOfSheep(sheeps) {
+//   const totalSheep = [];
+//   for (const sheep of sheeps) {
+//     if (sheep === true) {
+//       totalSheep.push(sheep);
+//     }
+//   }
+//   return totalSheep.length;
+// }
+// console.log(numberOfSheep(sheeps));
 
 // function countSheeps(sheeps) {
 //   let count = 0;
@@ -89,33 +116,7 @@
 //   }
 //   return count;
 // }
-// const sheep = [
-//   true,
-//   true,
-//   true,
-//   false,
-//   true,
-//   true,
-//   true,
-//   true,
-//   true,
-//   false,
-//   true,
-//   false,
-//   true,
-//   false,
-//   false,
-//   true,
-//   true,
-//   true,
-//   true,
-//   true,
-//   false,
-//   false,
-//   true,
-//   true,
-// ];
-// countSheeps(sheep);
+// console.log(countSheeps(sheeps));
 
 // !JavaScript Problem Solving - 10! //
 /**
@@ -134,4 +135,4 @@
 //   }
 //   return string;
 // }
-// repeatStr(6, "I");
+// console.log(repeatStr(6, "I"));
