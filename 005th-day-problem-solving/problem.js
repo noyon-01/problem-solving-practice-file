@@ -7,7 +7,7 @@
 // function multiply(a, b) {
 //   return a * b;
 // }
-// multiply(5, 6);
+// console.log(multiply(5, 6));
 
 // !JavaScript Problem Solving - 22! //
 /**
@@ -27,8 +27,13 @@
  */
 
 // function makeNegative(num) {
-//   return num > 0 ? num * -1 : num;
+//   if (num < 0) {
+//     return num;
+//   } else {
+//     return num * -1;
+//   }
 // }
+// console.log(makeNegative(5));
 
 // !JavaScript Problem Solving - 23! //
 /**
