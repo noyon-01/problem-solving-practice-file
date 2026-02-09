@@ -13,10 +13,10 @@
    "-7" --> -7
  */
 
-// const stringToNumber = function (str) {
-//   let number = +str;
-//   return number;
-// };
+// function stringToNumber(string) {
+//   return parseInt(string);
+// }
+// console.log(stringToNumber("1234"));
 
 // !JavaScript Problem Solving - 17! //
 /**
@@ -29,10 +29,10 @@
    "8aaaaa dddd r     " -> "8aaaaaddddr"
  */
 
-// function noSpace(x) {
-//   let noSpace = x.split(" ").join("");
-//   return noSpace;
+// function noSpace(text){
+//   return text.split(" ").join("");
 // }
+// console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"));
 
 // !JavaScript Problem Solving - 18! //
 /** 
@@ -65,8 +65,12 @@
  */
 
 // function removeChar(str) {
+//   if (str.length <= 2) {
+//     return "";
+//   }
 //   return str.slice(1, -1);
 // }
+// console.log(removeChar("eloquent"));
 
 // !JavaScript Problem Solving - 19! //
 /**
@@ -76,9 +80,10 @@
    'word'   =>  'drow'
  */
 
-// function solution(str) {
-//   return str.split("").reverse().join("");
+// function reverseStr(text) {
+//   return text.split("").reverse().join("");
 // }
+// console.log(reverseStr("world"));
 
 // !JavaScript Problem Solving - 20! //
 /**
@@ -96,3 +101,5 @@
 // function numberToString(num) {
 //   return num.toString();
 // }
+
+// console.log(numberToString(123));
